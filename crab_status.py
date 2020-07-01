@@ -135,7 +135,8 @@ class CrabTracker(object):
             for job in self.failed_data[taskname].keys():
                 if self.failed_data[taskname][job] in memoryErrorCodes:
                     print_last = True
-                    late_print.append(resubmit)
+                    if resubmit not in late_print:
+                        late_print.append(resubmit)
             if not print_last:
                 print resubmit               
 
