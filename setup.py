@@ -8,5 +8,5 @@ setup(
     license = "gpl-3.0",
     keywords = "crab3 task track",
     url = "https://github.com/lcorcodilos/CRABTaskTracker",
-    long_description=read('README'),
+    long_description=read('README.md'),
 )
