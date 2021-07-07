@@ -9,4 +9,5 @@ setup(
     keywords = "crab3 task track",
     url = "https://github.com/lcorcodilos/CRABTaskTracker",
     long_description=open('README.md','r').read(),
+    scripts=['crab_status']
 )
